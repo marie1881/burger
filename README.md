@@ -1,4 +1,4 @@
-# Eat Da Burger!!! 
+#  ![Screenshot1](https://github.com/marie1881/burger/blob/master/public/assets/img/burgs.png) Eat Da Burger!!! ![Screenshot1](https://github.com/marie1881/burger/blob/master/public/assets/img/burgs.png)
 
 This is a Node, Express, Handlebars and MySQL app. The app allows the user to submit the names of burgers they like and devour them. 
 
