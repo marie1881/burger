@@ -1,9 +1,7 @@
-
 -- Database Creation
 CREATE DATABASE burgers_db;
 
 USE burgers_db;
-
 
 -- Table Creation
 CREATE TABLE burgers(
