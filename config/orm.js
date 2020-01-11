@@ -1,7 +1,6 @@
 
 // Import Node Dependencies
-var connection = require('./connection');
-
+var connection = require('./connection.js');
 
 
 // Methods for MySQL commands
@@ -11,6 +10,10 @@ var orm = {
   selectAll: function(callback) {
 
     // Run MySQL Query
+
+    
+
+
     connection.query('SELECT * FROM burgers', function (err, result) {
       if (err) throw err;
       callback(result);
