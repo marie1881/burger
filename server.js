@@ -21,5 +21,7 @@ var router = require('./controllers/burgers_controller');
 app.use('/', router);
 
 // Open Server
-var port = process.env.PORT || 8080;
-app.listen(port);
+var PORT = process.env.PORT || 3000;
+app.listen(PORT, function() {
+    console.log('Burger App is listening on ' + PORT);
+  });
