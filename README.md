@@ -14,7 +14,7 @@ This is a Node, Express, Handlebars and MySQL app. The app allows the user to su
 4. The app will store every burger in the database, whether devoured or not.
 
 ### Preview of the burger app
-<!-- ![what-user-wants](https://github.com/marie1881/node.js-mysql/blob/master/screenshots/Screenshot1.PNG) -->
+![Screenshot1](https://github.com/marie1881/burger/blob/master/public/assets/img/Screenshot1.PNG)
 
 
 #### Technologies used: 
