@@ -4,32 +4,28 @@ var connection = require('./connection.js');
 
 
 
-
-// // Connect to MySQL database
-// connection.connect(function(err) {
-//   if (err) {
-//     console.error('error connecting: ' + err.stack);
-//     return;
-//   };
-//   console.log('connected as id ' + connection.threadId);
-// });
-
-
-
-
+var tableName = "burgers";
 // Methods for MySQL commands
 var orm = {
+  
+  burgers: function(callback) {
+    var s = "SELECT * FROM " + tableName;
 
-  // selectAll()
-  selectAll: function(callback) {
-
-    // Run MySQL Query
-    connection.query('SELECT * FROM burgers', function (err, result) {
-      if (err) throw err;
+    connection.query(s, function(err, result) {
       callback(result);
     });
-
   },
+
+  // selectAll()
+  // selectAll: function(callback) {
+
+  //   // Run MySQL Query
+  //   connection.query('SELECT * FROM burgers', function (err, result) {
+  //     if (err) throw err;
+  //     callback(result);
+  //   });
+
+  // },
 
   // insertOne()
   insertOne: function(burger_name, callback){
