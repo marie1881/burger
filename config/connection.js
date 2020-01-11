@@ -1,5 +1,6 @@
 
 // Requiring mysql package
+
 var mysql = require("mysql");
 
 // Setting up our connection information
